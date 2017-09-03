@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from goose import Goose
 
 app = Flask(__name__)
@@ -27,7 +27,7 @@ def articleExtractor():
     articleObject.append(articleBody)
     
     #return article main text
-    return articleObject[2]
+    return jsonify(articleObject)
 
 
 
