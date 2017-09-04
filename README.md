@@ -2,9 +2,8 @@
 
 1. Install python
 2. Install pip
-3. Install Goose
-3.1 On Ubuntu: pip install goose-extractor
-4. Install Flask
+3. Install Goose. On Ubuntu: pip install goose-extractor
+4. Install Flask. https://www.fullstackpython.com/blog/python-3-flask-green-unicorn-ubuntu-1604-xenial-xerus.html
 5. Create a Flask server
 6. cd to the folder where the flask python file apiServer.py is
 7. $ export FLASK_DEBUG=1
