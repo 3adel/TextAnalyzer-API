@@ -3,6 +3,7 @@
 1. Install python
 2. Install pip
 3. Install Goose
+3.1 On Ubuntu: pip install goose-extractor
 4. Install Flask
 5. Create a Flask server
 6. cd to the folder where the flask python file apiServer.py is
