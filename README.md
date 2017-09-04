@@ -15,3 +15,7 @@
 
 Some useful links
 http://flask.pocoo.org/docs/0.12/quickstart/#a-minimal-application
+
+
+
+The app is currently on /var/www/proxy/proxy, to run it, gunicorn proxy:app
