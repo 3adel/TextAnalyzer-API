@@ -20,16 +20,9 @@
 1. $ export FLASK_APP=apiServer.py
 1. $ flask run
 1. Make a request. Here's an example: http://127.0.0.1:5000/api?url=http://www.bbc.com/news/world-us-canada-41134799
-Some useful links http://flask.pocoo.org/docs/0.12/quickstart/#a-minimal-application
 
 
-
-
-
-
-
-
-Some useful links
+# Some useful links
 * http://flask.pocoo.org/docs/0.12/quickstart/#a-minimal-application
 
 
