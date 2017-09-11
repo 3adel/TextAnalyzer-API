@@ -1,4 +1,4 @@
-# Intall flask server on an Ubuntu intance
+# Install flask server on an Ubuntu intance
 
 1. Install python 
 1. Install pip
@@ -9,8 +9,18 @@
 
 
 
-The app is currently on /var/www/proxy/proxy, to run it, gunicorn proxy:app
-
+# Install flask server locally (Mac)
+1. Install python
+1. Install pip
+1. Install Goose
+1. Install Flask
+1. Create a Flask server
+1. cd to the folder where the flask python file apiServer.py is
+1. $ export FLASK_DEBUG=1
+1. $ export FLASK_APP=apiServer.py
+1. $ flask run
+1. Make a request. Here's an example: http://127.0.0.1:5000/api?url=http://www.bbc.com/news/world-us-canada-41134799
+Some useful links http://flask.pocoo.org/docs/0.12/quickstart/#a-minimal-application
 
 
 
