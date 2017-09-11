@@ -1,6 +1,6 @@
 # TextAnalyzer-API
 
-1. Install python
+1. Install python https://github.com/grangier/python-goose
 2. Install pip
 3. Install Goose. On Ubuntu: pip install goose-extractor
 4. Install Flask. https://www.fullstackpython.com/blog/python-3-flask-green-unicorn-ubuntu-1604-xenial-xerus.html
