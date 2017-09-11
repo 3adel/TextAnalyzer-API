@@ -1,4 +1,4 @@
-# TextAnalyzer-API
+# Intall flask server on an Ubuntu intance
 
 1. Install python 
 1. Install pip
@@ -9,5 +9,18 @@
 
 
 
+The app is currently on /var/www/proxy/proxy, to run it, gunicorn proxy:app
+
+
+
+
+
+
+
+
+
 Some useful links
 * http://flask.pocoo.org/docs/0.12/quickstart/#a-minimal-application
+
+
+
