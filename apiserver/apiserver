@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name 138.68.65.167;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:/home/adel/apiserver/apiserver.sock;
+    }
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve serve apiserver
+After=network.target
+
+[Service]
+User=adel
+Group=www-data
+WorkingDirectory=/home/adel/apiserver
+Environment="PATH=/home/adel/apiserver/apiserverenv/bin"
+ExecStart=/home/adel/apiserver/apiserverenv/bin/uwsgi --ini apiserver.ini
+
+[Install]
+WantedBy=multi-user.target
