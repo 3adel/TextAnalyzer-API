@@ -20,8 +20,11 @@ def articleExtractor():
     
     articleObject.append(article.title)
     articleObject.append(article.text[:])
+    articleObject.append(article.authors)
+    articleObject.append(article.top_image)
     
-    return jsonify(aritcleText=articleObject[1], aritcleTitle=articleObject[0])
-
+    return jsonify(articleText=articleObject[1], articleTitle=articleObject[0], articleAuthors=articleObject[2], articleTopImage=articleObject[3])
+    #return jsonify(articleObject)
+    
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
